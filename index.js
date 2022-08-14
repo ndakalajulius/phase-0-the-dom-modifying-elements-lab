@@ -1,7 +1,8 @@
 const element = document.getElementById('main');
 
 element.remove();
-const newHeader = document.createElement('h1')
+let newHeader = document.createElement('h1')
+document.body.appendChild(newHeader)
 newHeader.id = 'victory'
-newHeader.innerHTML = "Julius Ndakala is the champion"
+newHeader.innerHTML = "Julius Ndakala is the champion";
 // Write your code here!
